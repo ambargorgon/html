@@ -1,0 +1,128 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body class="main_body">
+    <header class="header_body">
+        <h1 class="header_title">JOYSTICK</h1>
+    </header>
+    <div class="buttons_container">
+        <button onClick="previous()" id="backward" class="button">Volver a Sintesis</button>
+        <h1 class="section">CONCLUSION</h1>
+        <button id="button_toHome" class="button">Volver a Inicio</button>
+    </div>
+    <div class="conclusion">
+        <div class="conclusion_header">
+            <h2 class="subtitle"></h2>
+        </div>
+        <p>
+            Un joystick es un dispositivo periférico de entrada que se conecta a un ordenador o consola para
+            controlar de forma manual un software.
+        </p>
+        <p>
+            Este dispositivo se puede emplear para controlar aviones, grúas, sillas de ruedas, entre otros, pero el
+            tipo de joystick más cotidiano y popular, y en el que nos vamos a enfocar, es aquel usado especialmente para
+            controlar juegos de consola o programas de simulación. Este consiste en dos palancas que se pivotean sobre
+            una
+            base y aproximadamente 10 botones que ejecutan acciones específicas. Se usan principalmente para controlar
+            el
+            movimiento y las acciones en videojuegos de consola.
+
+        </p>
+        <p> La creación del joystick se remonta a principios del siglo XX, aunque a partir de la década de los 70 su
+            uso comenzó a cotidianizarse, popularizándose en el área del entretenimiento con los juegos Arcade. Esto
+            conllevó a una constante evolución del hardware y software de los mismos, pasando por distintas etapas hasta
+            llegar
+            a los joysticks modernos como los conocemos hoy en día, que cuentan con una gran variedad de comodidades
+            como
+            mejor sensibilidad, estética y agarre, la capacidad de vibrar, luces, entre otras cosas.
+        </p>
+        <p>
+
+            Un Joystick es básicamente un puntero, muy similar en función al mouse, y tiene muchas funciones; la
+            mayoría proporcionan la habilidad de apuntar o mover un objeto en pantalla usando coordenadas en ejes X, Y y
+            Z,
+            entre otras funciones que generan profundidad e inmersión en el juego. Para el uso de estos en videojuegos o
+            como puntero en dispositivos, es necesaria la ayuda de los “drivers” o controladores, los cuales son un
+            componente de software que interceden entre las acciones del usuario y la interpretación de estas dentro del
+            programa
+            o juego. Estos logran facilitar la comunicación entre el Joystick y la computadora o consola, sin importar
+            qué
+            tipo de conexión está siendo empleada entre los dos. Sin los drivers adecuados, la comunicación entre
+            hardware y
+            software puede ser mala o nula, y el sistema operativo puede llegar a no reconocer el mando.
+        </p>
+        <p> Los drivers interpretan la posición de las palancas sobre los valores de las tres coordenadas
+            espaciales, capaz de ser recolectada gracias a sensores discretos capaces de percibir una o dos posiciones
+            interpretadas
+            como “0” o “1”, la escriben en el buffer global mediante el API y convierten los valores del joystick al
+            reporte
+            HID.
+            Básicamente, traducen la información y le indican a la computadora lo que significan estas señales de
+            posición
+            del Joystick, cómo pueden ser calibradas y cómo se relacionan con los programas de usuario que las
+            requieren.
+            También, permiten monitorear los estados de las señales de los botones (prendido o apagado), que normalmente
+            representan una función programada por el usuario (como dejar caer una bomba o disparar un arma). Los
+            drivers de
+            un Joystick también proporcionan la programación de fuerzas de retroalimentación que hacen que el
+            dispositivo
+            vibre, mejorando la experiencia de los usuarios, y permiten ajustar las preferencias del usuario, como
+            la
+            sensibilidad, la calibración o la asignación de botones.
+        </p>
+
+        <p> En muchos casos, Windows instala automáticamente los drivers cuando el Joystick se conecta por primera
+            vez a la
+            PC, de no ser este el caso, los controladores deben ser instalados manualmente por el usuario. Una vez
+            que son instalados correctamente, el Joystick funcionará como DirectInput, XInput, o como ambos. Estos
+            términos
+            se refieren a la API que existe entre el driver y el sistema; que administra cómo el driver recibe la
+            información que ingresa el usuario, para comunicarlo con la computadora para que sepa qué botones significan
+            qué
+            cosa.
+        </p>
+        <p>
+
+            La comunicación entre la PC y el joystick se realiza mediante un puerto USB o una conexión inalámbrica
+            Bluetooth o Wi-Fi que permite el intercambio de datos entre ambos dispositivos. El tipo de puerto o conexión
+            determina la velocidad, la compatibilidad y la seguridad de la comunicación. El joystick envía señales
+            eléctricas a
+            la PC cada vez que se mueve la palanca o se presiona un botón. Estas señales corresponden a diferentes
+            circuitos que se cierran al activar los contactos debajo de la palanca o los botones. La PC/Consola recibe
+            estas
+            señales y las interpreta como comandos para controlar el software, especialmente los juegos o los programas
+            de
+            simulación.
+        </p>
+        <p>
+
+            Para concluir, el joystick es un dispositivo que ha pasado por diferentes etapas y evoluciones en su
+            tecnología, tanto en software como en hardware, pero que ha mantenido siempre la misma base y principios,
+            que
+            han
+            permitido proveerle al usuario una mayor precisión y comodidad que otros dispositivos de entrada. Es por
+            esto
+            último que se ha convertido en el estándar de mandos para videojuegos y consolas, y solo podemos esperar a
+            que
+            continúen
+            mejorando y evolucionando.
+
+        </p>
+    </div>
+    <footer class="footer">
+        <h2 style="font-weight: 400">Ambar Gorgon | Bruno Meloni | Amparo Miranda | Bianca Perrotta | Isabella Romo
+        </h2>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

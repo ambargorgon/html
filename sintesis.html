@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Montserrat:wght@400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body class="main_body">
+    <header class="header_body">
+        <h1 class="header_title">JOYSTICK</h1>
+    </header>
+    <div class="buttons_container">
+        <button onClick="previous()" id="backward" class="button">Volver a Inicio</button>
+        <h1 class="section">SINTESIS</h1>
+        <button class="button" id="button_conclusion">Ir a Conclusion</button>
+    </div>
+    <div class="text">
+        <h3 class="subtitle">Qué es un JoyStick?</h3>
+        <p>Un joystick es un dispositivo periférico de entrada que se conecta a un ordenador o videoconsola para
+            controlar de forma manual un <a href="https://es.wikipedia.org/wiki/Software" target="_blank">software</a>,
+            especialmente juegos o programas de simulación.
+        <p>Consiste en una palanca que se pivotea sobre una base y reporta el ángulo en dirección al equipo al que está
+            conectado, normalmente acompañado también tiene botones, interruptores, controles deslizantes y otros
+            controles auxiliares que amplían su funcionalidad.</p>
+        <p>Se usan principalmente para controlar el movimiento y las acciones en
+            videojuegos de consola, aunque también se emplean para controlar aviones, grúas, sillas de ruedas, entre
+            otros. </p>
+        <p>En estos casos, los joysticks permiten una mayor precisión y comodidad que otros dispositivos de entrada,
+            como el teclado o el mouse.</p>
+        </p>
+        <h3 class="subtitle titulos_der">Historia y desarrollo del joystick:
+        </h3>
+        <p>
+        <p>Los <a href="https://es.wikipedia.org/wiki/Palanca_de_mando"> primeros modelos de joysticks </a>, comenzaron a ser utilizados en el área científico-militar a principios del siglo XX para el control de misiles y la aviación simplificando y optimizando su manejo.</p>
+
+        <p> No fue hasta 1970 cuando su uso comenzó a popularizarse entre las industrias tecnológicas y
+            de entretenimiento, sobre todo en las primeras máquinas de juego Arcade.
+
+            Luego, debido al crecimiento exponencial de la industria de los videojuegos y de la tecnología en los
+            años 80s y 90s, tanto los joysticks como los mouses tuvieron un gran impacto en la manera de controlar los
+            diferentes dispositivos.</p>
+
+        <p> Con los años y las nuevas demandas, fueron incorporando nuevas capacidades, funciones y botones. Se
+            mejoró la estética, el agarre, la precisión y sensibilidad, dejando así joysticks que tienen muy poco que ver
+            con los primeros modelos utilizados en la industria aeronáutica o en las máquinas Arcade.
+
+        </p>
+        <h3 class="subtitle">Cómo funciona un JoyStick?</h3>
+        <p>El componente principal del joystick es la palanca, que puede moverse en diferentes direcciones: arriba,
+            abajo, izquierda, derecha y en diagonales.
+        <p>Este movimiento es captado por los sensores de movimiento, que detectan los cambios en la posición de la
+            palanca en relación con su punto central. Estos sensores pueden ser <a href="https://es.wikipedia.org/wiki/Potenci%C3%B3metro">potenciómetros</a> o encoders ópticos. </p>
+        <p>Los potenciómetros miden cambios en la resistencia eléctrica a medida que la palanca se mueve, mientras que
+            los encoders ópticos utilizan una serie de discos con marcas que se leen mediante sensores para determinar
+            la posición.</p>
+        <p>Los datos recopilados por los sensores de movimiento se envían a la unidad electrónica, que incluye un
+            microcontrolador que procesa la información de los sensores sobre los valores actuales de las tres
+            coordenadas espaciales que tiene valores máximos y mínimos absolutos en cada eje de movimiento.</p>
+        <p> Esta información es posible de recolectar gracias a sensores discretos capaces de percibir una de dos
+            posiciones, interpretadas como "0" o "1".</p>
+        </p>
+        <h3 class="subtitle titulos_der">¿Qué es un driver y cómo funciona?</h3>
+
+        <div class="cuadro_div">
+            <img src="/src/images/cuadro1.png" class="cuadro">
+            <div class="cuadro_texto">
+                <p>Un driver, o controlador, es un componente de software que permite al sistema operativo y un
+                    dispositivo
+                    comunicarse entre sí.</p>
+
+                <p>Estos componentes controlan el acceso y la comunicación con los dispositivos de entrada/salida
+                    externos,
+                    representando el nivel más bajo del sistema operativo; dadas sus características, estas rutinas
+                    normalmente deben programarse en lenguaje ensamblador.</p>
+
+                <p>Cada controlador de dispositivos consiste en un protocolo de llamadas para controlar a dicho
+                    dispositivo. </p>
+
+                <p>La estructura básica incluye algunos módulos principales: el encabezado (header), que proporciona la
+                    información necesaria para la activación del driver, la tabla de salto a las funciones, que maneja
+                    la
+                    dirección relativa de cada una de las funciones implementadas en el manejador, la rutina de
+                    estrategia,
+                    que comunica el software con el controlador, la rutina de interrupción, que realiza el trabajo de
+                    control del dispositivo, entre otros.</p>
+                <p>
+                    La mayoría de sistemas operativos poseen controladores nativos, es decir que no es necesario
+                    instalar nada para que el sistema reconozca el dispositivo.
+                    Para los dispositivos menos comunes, los controladores deben ser escritos por la empresa que diseñó
+                    el dispositivo.
+                    diseñados según un estándar de hardware.
+                    A menudo los controladores no se comunican directamente con el dispositivo. A través de varios
+                    controladores
+                    superpuestos en una pila se proporciona la solicitud, donde algunos de los controladores de la pira
+                    la
+                    transforman de un formato a otro y la pasan a los controladores que están más bajos en la pila.
+                </p>
+            </div>
+        </div>
+        <h2 class="subtitle">Drivers del Joystick</h2>
+        <div class="cuadro_div">
+            <div class="cuadro_texto">
+                <p> En el caso de los JoySticks, los controladores hacen posible la comunicación entre el Joystick y la
+                    computadora, sin importar qué tipo de conexión está siendo empleada entre los dos.</p>
+                <p>Sin los drivers adecuados el sistema operativo puede llegar a no reconocer el mando.</p>
+                <p>Los Drivers traducen la información e indican a la computadora lo que significan las señales de
+                    posición del Joystick, cómo pueden ser calibradas y cómo se relacionan con los programas de usuario
+                    que las requieren. También, permiten monitorear los estados de las señales de los botones que
+                    normalmente representan una función programada por el fabricante. </p> 
+                <p>En un sistema convencional, una tarjeta (un circuito integrado) dentro de la computadora se encarga de hacer esto con un    sistema básico de convertidor de analógico a digital. En muchas ocasiones, Windows instalará automáticamente
+                    los drivers cuando el Joystick se conecte por primera vez a la PC, de no ser este el caso, los
+                    controladores deben ser instalados manualmente por el usuario.</p> 
+                <p>Una vez que estén instalados correctamente, el Joystick funcionará como DirectInput, XInput, o como ambos. Estos términos se refieren a la API que existe entre el driver y el sistema; que administra cómo el driver recibe la
+                    información que ingresa el usuario, para comunicarlo con la computadora para que sepa qué botones
+                    significan qué cosa. </p> 
+                <p>La diferencia entre DirectInput y XInput es que la segunda es más nueva y fácil
+                de usar, mientras que la primera ha sido la estándar por muchos años y soporta algunas
+                características que XInput no. </p>
+            </div>
+            <img src="./src/images/cuadro2.png" class="cuadro">
+        </div>
+        <h3 class="subtitle titulos_der">Conexiones del Joystick y la PC:</h3>
+        <div class="cuadro_div">
+            <img src="./src/images/cuadro3.png" class="cuadro cuadro3">
+            <div class="cuadro_texto">
+                <p>La comunicación entre la PC y el joystick se realiza mediante un puerto o una conexión inalámbrica
+                    que
+                    permite el intercambio de datos entre ambos dispositivos.
+                </p>
+
+                <p>El puerto o la conexión inalámbrica puede ser de diferentes tipos, como USB, Bluetooth, Wi-Fi o
+                    dongles.
+                    El tipo de puerto o conexión determina la velocidad, la compatibilidad y la seguridad de la
+                    comunicación.
+                </p>
+
+                <p>El joystick envía señales eléctricas a la PC cada vez que se mueve la palanca o se presiona un botón.
+                    Estas señales corresponden a diferentes circuitos que se cierran al activar los contactos debajo de
+                    la
+                    palanca o los botones.
+                </p>
+                <p>La PC/Consola recibe estas señales y las interpreta como comandos para controlar el software,
+                    especialmente los juegos o los programas de simulación.
+                </p>
+                <p>El controlador que permitirá la comunicación entre ambos, puede ser proporcionado por el fabricante
+                    del
+                    joystick, por el sistema operativo o por una plataforma de juegos.
+                    >Normalmente este controlador permite ajustar las preferencias del usuario, como la sensibilidad, la
+                    calibración o la asignación de botones.
+                </p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <h2 style="font-weight: 400">Ambar Gorgon | Bruno Meloni | Amparo Miranda | Bianca Perrotta | Isabella Romo
+            </h2>
+        </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
