@@ -11,7 +11,7 @@ if (currentUrl.includes("index.html")) {
     //Navegar a conclusion
     let botonConclusion = document.querySelectorAll(".button_conclusion")
     console.log(botonConclusion)
-    for (let boton of botonConclusion){
+    for (let boton of botonConclusion) {
         boton.addEventListener("click", () => {
             window.location.href = "conclusion.html"
         })
@@ -28,4 +28,4 @@ if (currentUrl.includes("index.html")) {
 // Navegar atras
 function previous() {
     window.history.back();
-} 
+}

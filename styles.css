@@ -127,6 +127,8 @@ a{
     align-self: center;
     border-radius: 30px;
     text-align: left;
+    overflow: hidden;
+    margin-bottom: 50;
 }
 
 .conclusion_header {
@@ -186,20 +188,49 @@ a{
 .items{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.items div{
+    display: flex;
+    flex-direction: column;
+
 }
 
-.items h2{
+.items a{
     font-weight: 600;
     font-size: 20px;
     margin-top: 25px;
     transition: 0.2s;
+    text-decoration: none;
 } 
 
-.items h2:hover{
+.items a:hover{
     color: rgba(0, 0, 0, 0.466);
     font-size: 21px;
+    background: none;
 }
 
 #footer_index{
     background-color:#ffffff93;
+}
+
+.bibliografia{
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+    width: fit-content;
+    text-align:right;
+}
+.left{
+    text-align: left;
+}
+
+.bibliografia div div {
+    padding: 0 20px 10px 20px;
+
+}
+.drivers{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
